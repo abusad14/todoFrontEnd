@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./global.css";
 import Home from "./pages/Home";
 import AllData from "./pages/AllData";
-import OneData from "./pages/oneData";
+import OneData from "./pages/OneData";
 const App = () => {
   let paths = createBrowserRouter([
     { path: "/", element: <Home /> },
